@@ -33,8 +33,8 @@ def main():
     Y = w*X + b + noise
 
 
-    N_epochs = st.number_input("Number of epochs", min_value=1, max_value=100, value=20, step=1)
-    lr = st.number_input("Learning rate", min_value=0.001, max_value=10.0, value=0.01, step=0.001)
+    N_epochs = st.number_input("Number of epochs", min_value=1, max_value=500, value=20, step=1)
+    lr = st.number_input("Learning rate", min_value=0.01, max_value=10.0, value=0.01, step=0.01)
 
     state = st.button('Generate predicted line')
     fig, ax  = plt.subplots()
