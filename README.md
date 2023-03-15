@@ -6,4 +6,6 @@
 ![image](https://user-images.githubusercontent.com/59205970/225296789-8877e675-e870-4049-af21-56466cb441b0.png)
 
 ## Use on your local
-run streamlit app.py
+
+!pip install -r requirements.txt
+!run streamlit app.py
