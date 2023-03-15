@@ -7,7 +7,7 @@
 
 ## Use on your local
 ```bash
-clone https://github.com/lavatus/Linear-Regression-App.git
+git clone https://github.com/lavatus/Linear-Regression-App.git
 pip install -r requirements.txt
 run streamlit app.py
 ```
